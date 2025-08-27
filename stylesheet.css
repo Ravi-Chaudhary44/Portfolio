@@ -15,6 +15,13 @@
     --border-light: #cbd5e1;
     --border-dark: #475569;
 }
+.about-image {
+  max-width: 100%;   
+  height: auto;      
+  display: block;    
+  margin: 0 auto;    
+  border-radius: 10px; 
+}
 * {
     margin: 0;
     padding: 0;
@@ -1044,3 +1051,4 @@ p {
     display: none;
 
 }
+
