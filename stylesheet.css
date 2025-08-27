@@ -15,8 +15,6 @@
     --border-light: #cbd5e1;
     --border-dark: #475569;
 }
-
-/* Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -35,12 +33,11 @@ body.dark {
     color: var(--light);
 }
 
-/* Smooth scroll */
+
 html {
     scroll-behavior: smooth;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -51,7 +48,7 @@ p {
     line-height: 1.6;
 }
 
-/* Layout */
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -59,7 +56,7 @@ p {
     padding: 0 1.5rem;
 }
 
-/* Navigation */
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -185,7 +182,6 @@ p {
     color: var(--gray-light);
 }
 
-/* Mobile Menu */
 .mobile-menu {
     display: none;
     background-color: var(--light);
@@ -223,7 +219,7 @@ p {
     color: #60a5fa;
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -352,7 +348,7 @@ p {
     height: 100%;
 }
 
-/* Section Styles */
+
 .section {
     padding: 5rem 1.5rem;
     opacity: 0;
@@ -383,7 +379,7 @@ p {
     margin: 0 auto 3rem;
 }
 
-/* About Section */
+
 .about {
     background-color: rgba(248, 250, 252, 0.5);
 }
@@ -475,7 +471,7 @@ p {
     color: var(--gray-light);
 }
 
-/* Skills Section */
+
 .skills-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -586,7 +582,6 @@ p {
     margin-bottom: 0.5rem;
 }
 
-/* Projects Section */
 .projects {
     background-color: rgba(248, 250, 252, 0.5);
 }
@@ -733,7 +728,7 @@ p {
     background-color: var(--primary-hover);
 }
 
-/* Contact Section */
+
 .contact-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -854,7 +849,7 @@ p {
     color: var(--gray-light);
 }
 
-/* Contact Form */
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -920,7 +915,7 @@ p {
     background-color: var(--primary-hover);
 }
 
-/* Footer */
+
 .footer {
     background-color: var(--dark);
     color: white;
@@ -1033,7 +1028,7 @@ p {
     fill: currentColor;
 }
 
-/* Animations */
+
 @keyframes float {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-15px); }
@@ -1044,7 +1039,8 @@ p {
     animation: float 4s ease-in-out infinite;
 }
 
-/* Utility Classes */
+
 .hidden {
     display: none;
+
 }
